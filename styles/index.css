@@ -67,11 +67,14 @@ body {
 }
 #build {
   font-size: small;
-  color: rgb(75, 73, 73);
+  color:rgb(140, 137, 137);
 }
 #get {
   cursor: pointer;
-  padding: 2% 5%;
+  padding: 5% 5%;
+  margin-top:10px;
+  width:70%;
+  text-align:center;
   font-family: "Poppins", sans-serif;
   font-size: 10px;
   font-weight: 600;
@@ -121,7 +124,7 @@ body {
 #generate {
   width: 60%;
   font-size: small;
-  color: rgb(75, 73, 73);
+  color: rgb(140, 137, 137);
 }
 .growtogether {
   width: 50%;
@@ -142,7 +145,7 @@ body {
 #convo {
   width: 70%;
   font-size: small;
-  color: rgb(75, 73, 73);
+  color: rgb(140, 137, 137);
 }
 .box3 {
   display: flex;
@@ -157,7 +160,7 @@ body {
 #integrate {
   width: 60%;
   font-size: small;
-  color: rgb(75, 73, 73);
+  color:rgb(140, 137, 137);
 }
 #youruser {
   width: 50%;
@@ -174,12 +177,6 @@ footer {
   padding: 100px;
   position: relative;
 }
-.logo2 {
-  width: 10%;
-  background: white;
-  border-radius: 5px;
-}
-
 .middleman {
   color: black;
   background: white;
@@ -187,7 +184,7 @@ footer {
   position: absolute;
   top: -23%;
   left: 50%;
-  transform:translate(-50%, -23%);
+  transform: translate(-50%, -23%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,50 +212,40 @@ footer {
 #middlebutton:hover {
   background-color: hsl(322, 100%, 66%);
 }
+.collection {
+  width: 40%;
+}
 .location {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
 .phone {
+  width: 44%;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
 .email {
+  width: 51%;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
-
-.svg img {
-  width: 25px;
-}
-#icons {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-#facebook:hover {
-  background-color: hsl(322, 100%, 66%);
-  border-radius: 150px 150px 150px 150px;
-  -webkit-border-radius: 150px 150px 150px 150px;
-  -moz-border-radius: 150px 150px 150px 150px;
-}
-#twitter:hover {
-  background-color: hsl(322, 100%, 66%);
-  border-radius: 150px 150px 150px 150px;
-  -webkit-border-radius: 150px 150px 150px 150px;
-  -moz-border-radius: 150px 150px 150px 150px;
-}
-#insta:hover {
-  background-color: hsl(322, 100%, 66%);
-  border-radius: 150px 150px 150px 150px;
-  -webkit-border-radius: 150px 150px 150px 150px;
-  -moz-border-radius: 150px 150px 150px 150px;
+.location,
+.phone,
+.email {
+  padding: 15px 0;
 }
 
+.about ul li,
+.career ul li {
+  padding: 15px 0;
+}
 .about ul {
   display: inline-block;
 }
@@ -284,31 +271,75 @@ footer {
   text-decoration: none;
   color: rgb(194, 188, 188);
 }
+.svg img {
+  width: 25px;
+}
+#icons {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+/* #facebook:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 150px 150px 150px 150px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  -moz-border-radius: 150px 150px 150px 150px;
+}
+#twitter:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 150px 150px 150px 150px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  -moz-border-radius: 150px 150px 150px 150px;
+}
+#insta:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 150px 150px 150px 150px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  -moz-border-radius: 150px 150px 150px 150px;
+} */
+
 .huddle {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.facebook {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 20px;
+  border-radius: 50%;
+  border: 1.5px solid;
 }
 
-#icons {
-  background: aqua;
-  width: 100px;
+.facebook:hover {
+  color: hsl(322, 100%, 66%);
 }
 
-.fot-logo {
-  /* background: aqua; */
-  width: 300px;
+#icons i {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
-footer .fot-logo svg {
-  width: 100%;
+#icons i:hover {
+  color: hsl(322, 100%, 66%);
 }
-
+#span {
+  position: absolute;
+  right: 50px;
+  bottom: 15px;
+}
 @media (max-width: 480px) {
   header {
     padding: 0 20px;
+
   }
   .layer1 {
     text-align: center;
@@ -316,6 +347,15 @@ footer .fot-logo svg {
     flex-direction: column;
     gap: 30px;
   }
+  .build {
+     font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+
+  }
+
   .box1 {
     display: flex;
     flex-direction: column-reverse;
@@ -340,7 +380,7 @@ footer .fot-logo svg {
 
   p#generate {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px;
     width: 100%;
     text-align: center;
@@ -363,7 +403,7 @@ footer .fot-logo svg {
   }
   #convo {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px;
     width: 100%;
     text-align: center;
@@ -382,10 +422,11 @@ footer .fot-logo svg {
   }
   .box3 .users {
     margin-top: 2rem;
+    /* margin-bottom: 10rem; */
   }
   #integrate {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px;
     width: 100%;
     text-align: center;
@@ -396,8 +437,9 @@ footer .fot-logo svg {
     position: absolute;
     bottom: 10;
     padding: 30px 0;
-    top: -15%;
+    top: -5%;
     left: 50%;
+    /* margin-top:20px; */
     transform: translate(-50%, -15%);
   }
 
@@ -405,8 +447,26 @@ footer .fot-logo svg {
     font-size: 15px;
     margin-bottom: 15px;
   }
+.location {
+  width:250%;
+}
+.phone {
+  width:150%;
+}
+.collection .phone .location .email {
+  background: red;
+  width:50%;
+}
+  .huddle {
+    display: flex;
+    flex-direction: column;
 
-  footer{
-    margin-top: 200px;
+  }
+
+  #span {
+    position: absolute;
+    right:5%;
+    left: 8%;
+    transform:translate(8%, -5%);
   }
 }
