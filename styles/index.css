@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: url(../images/bg-hero-mobile.svg);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.free {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.logo {
+  width: 60%;
+}
+#button1 {
+  width: 20%;
+  padding: 1% 1%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgb(137, 133, 133);
+  border-radius: 50px;
+  border-color: white;
+  border: none;
+  box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  background-color: white;
+  cursor: pointer;
+}
+.headertext {
+  width: 350px;
+}
+.mockup {
+  width: 50%;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400, 700;
+  font: size 18px;
+}
+.layer1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400, 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 1% 1% 1% 1%;
+}
+#build {
+  font-size: small;
+  color: rgb(75, 73, 73);
+}
+#get {
+  cursor: pointer;
+  padding: 2% 5%;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.372);
+  background-color: rgb(244, 129, 183);
+}
+#get:hover {
+  background-color: hsl(322, 100%, 66%);
+}
+.svg {
+  width: 100%;
+}
+.layer2 {
+  background: white;
+}
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: white;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 3% 3%;
+  box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  /* animation: myAnim 2s ease 0s 1 normal forwards; */
+}
+/* @keyframes myAnim {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		transform: scale(1);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+		transform: scale(1.1);
+	} */
+
+.grow {
+  width: 350px;
+}
+#generate {
+  width: 60%;
+  font-size: small;
+  color: rgb(75, 73, 73);
+}
+.growtogether {
+  width: 50%;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 3%;
+  margin: 3% 3%;
+  box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+}
+#flowing {
+  width: 50%;
+}
+#convo {
+  width: 70%;
+  font-size: small;
+  color: rgb(75, 73, 73);
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 3%;
+  margin: 3% 3%;
+  box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+}
+#integrate {
+  width: 60%;
+  font-size: small;
+  color: rgb(75, 73, 73);
+}
+#youruser {
+  width: 50%;
+}
+
+footer {
+  background: hsl(192, 100%, 9%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: smaller;
+  font-weight: 600;
+  color: rgb(194, 188, 188);
+  margin-top: 20%;
+  padding: 100px;
+  position: relative;
+}
+.logo2 {
+  width: 10%;
+  background: white;
+  border-radius: 5px;
+}
+
+.middleman {
+  color: black;
+  background: white;
+  width: 50%;
+  position: absolute;
+  top: -23%;
+  left: 50%;
+  transform:translate(-50%, -23%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(222, 220, 220, 0.44);
+}
+
+#middlebutton {
+  cursor: pointer;
+  font-size: smaller;
+  font-weight: 700;
+  color: white;
+  background: rgb(244, 129, 183);
+  padding: 17px 60px;
+  border: none;
+  border-radius: 65px 65px 65px 65px;
+  -webkit-border-radius: 65px 65px 65px 65px;
+  -moz-border-radius: 65px 65px 65px 65px;
+}
+#middlebutton:hover {
+  background-color: hsl(322, 100%, 66%);
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.svg img {
+  width: 25px;
+}
+#icons {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#facebook:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 150px 150px 150px 150px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  -moz-border-radius: 150px 150px 150px 150px;
+}
+#twitter:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 150px 150px 150px 150px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  -moz-border-radius: 150px 150px 150px 150px;
+}
+#insta:hover {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 150px 150px 150px 150px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  -moz-border-radius: 150px 150px 150px 150px;
+}
+
+.about ul {
+  display: inline-block;
+}
+
+.about li {
+  list-style-type: none;
+}
+
+.about li a {
+  text-decoration: none;
+  color: rgb(194, 188, 188);
+}
+
+.career ul {
+  display: inline-block;
+}
+
+.career li {
+  list-style-type: none;
+}
+
+.career li a {
+  text-decoration: none;
+  color: rgb(194, 188, 188);
+}
+.huddle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+#icons {
+  background: aqua;
+  width: 100px;
+}
+
+.fot-logo {
+  /* background: aqua; */
+  width: 300px;
+}
+
+footer .fot-logo svg {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 0 20px;
+  }
+  .layer1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+  }
+
+  .box1 .svg2 {
+    padding: 0px 20px;
+  }
+
+  .box1 .svg2 img {
+    width: 100%;
+  }
+
+  .box1 .Grow {
+    margin-top: 2rem;
+  }
+
+  p#generate {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+  }
+
+  #flowing {
+    width: 100%;
+  }
+  .box2 .flow {
+    margin-top: 2rem;
+  }
+  #convo {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .box3 {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+  }
+  #youruser {
+    width: 100%;
+  }
+  .box3 .users {
+    margin-top: 2rem;
+  }
+  #integrate {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .middleman {
+    width: 80%;
+    position: absolute;
+    bottom: 10;
+    padding: 30px 0;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+  }
+
+  .middleman h1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  footer{
+    margin-top: 200px;
+  }
+}
